@@ -30,9 +30,9 @@ gem 'spring', group: :development
 
 gem 'devise'
 
-gem 'rspec-rails', :group => [:test, :development]
-
 group :development, :test do
   gem 'factory_girl_rails'
   gem 'capybara'
+  gem 'byebug'
+  gem 'rspec-rails'
 end
